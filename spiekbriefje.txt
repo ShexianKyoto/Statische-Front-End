@@ -1,0 +1,14 @@
+#   HTML bestaat uit Head en Body
+#
+#   <head> Head staan instellingen voor de website
+#   <body> Body laat zien wat er op de website komt
+#
+#   <h1> Kopje (headers met verschillende sizes[h1, h2, h3, h4, h5, h6])
+#   <p> Paragraph (P-element, weergeeft tekst en zorgt voor witte regels)
+#
+#   <ul> Unordered List (UL-element, )
+##   <li> List Item
+#
+#   <img> Weergeeft fotos [src][alt] (alt is backup voor als img niet werkt)
+#
+#   <a> Kan link aangeven [href]
