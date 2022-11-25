@@ -2,7 +2,8 @@
 <html lang="nl">
         <head>
 	        <meta charset="UTF-8">
-		<title>Persoonlijke Website</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Rayen ter Wal</title>
                 <style> h1 {
                                 color : rgb(100, 0, 100);
                                 font-family: 'Courier New', Courier, monospace;
@@ -21,30 +22,55 @@
                                 background-attachment: fixed;
                                 font-family: 'Courier New', Courier, monospace;
                                 font-size: 150%;
-                        } 
+                        } .topnav { /* Add a black background color to the top navigation */
+                                background-color: rgb(50, 50, 50);
+                                overflow: hidden;
+                                padding: 10px 10px;
+                                height: 55px;
+                        } .topnav a { /* Style the links inside the navigation bar */
+                                float: left;
+                                color: rgb(255, 255, 255);
+                                text-align: center;
+                                padding: 15px 15px;
+                                text-decoration: none;
+                                font-size: 20px;
+                        } .topnav a:hover { /* Change the color of links on hover */
+                                background-color: rgb(255, 255, 255);
+                                color: black;
+                        } .topnav a.active { /* Add a color to the active/current link */
+                                background-color: rgb(100, 0, 100);
+                                color: rgb(255, 255, 255);
+                        } .topnav a.githuba {
+                                padding: 0px 0px;
+                        } .topnav img.githubimg {
+                                width: 100px;
+                                height: 47px;
+                        }
                 </style>
 	</head>
 
 	<body>
+                <div class="topnav">
+                        <a class="active" href="index.html">Home</a>
+                        <a href="opleiding.html">Opleiding</a>
+                        <a href="werk.html">Werk</a>
+                        <a class="githuba" href="https://github.com/ShexianKyoto/Statische-Front-End"><img src="images/github.png" class="githubimg" alt="Github"></a>
+                </div>
+
                 <h1>Rayen ter Wal</h1>
                 <h3>Over Mij</h3>
-                <pre>
+                <p>
 Ik ben Rayen ter Wal, ik ben 21 jaar oud en ik kom uit Rotterdam Zuid.
-Van kleins af aan was ik al gek op de IT-wereld en wil ik graag mijn werk hiervan maken.
+Van kleins af aan was ik al gek op de IT-wereld en wil ik graag mijn werk hiervan maken. 
 Ik begon met programmeren door een spel waarin je op een spelende wijze met een vereenvoudigde versie van lua.
-                </pre>
+                </p>
 
-                <!--<h3>Onderwerp2</h3>-->
-                <pre>
-
-                </pre>  
-                        <h3>Mijn Hobbies</h3>
-                        <ul style="line-height: 150%">
-                                <li>ICT</li>
-                                <li>Gaming</li>
-                                <li>Programmeren</li>
-                                <li>Diepgaande Gesprekken</li>
-                        </ul>
-                <a href="https://github.com/ShexianKyoto/Statische-Front-End"><img src="images/github.png" alt="Github" width="250" height="150"></img></a>
+                <h3>Mijn Hobbies</h3>
+                <ul style="line-height: 150%">
+                        <li>ICT</li>
+                        <li>Gaming</li>
+                        <li>Programmeren</li>
+                        <li>Diepgaande Gesprekken</li>
+                </ul>
 	</body>
 </html>

@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="nl">
-	<head>
-	    <meta charset="UTF-8">
-		<title>Persoonlijke Website</title>
+        <head>
+	        <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Rayen ter Wal</title>
+                <style> h1 {
+                                color : rgb(100, 0, 100);
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 200%;
+                        } h3 {
+                                color : rgb(100, 0, 100);
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 150%;
+                        } ul {
+                                border: 5px solid rgb(100, 0, 100);
+                                padding: 50px;
+                                margin: 1px;
+                        } body {
+                                background-image: url('images/websiteBackground.jpeg');
+                                background-size: cover;
+                                background-attachment: fixed;
+                                font-family: 'Courier New', Courier, monospace;
+                                font-size: 150%;
+                        } .topnav { /* Add a black background color to the top navigation */
+                                background-color: rgb(50, 50, 50);
+                                overflow: hidden;
+                                padding: 10px 10px;
+                                height: 55px;
+                        } .topnav a { /* Style the links inside the navigation bar */
+                                float: left;
+                                color: rgb(255, 255, 255);
+                                text-align: center;
+                                padding: 15px 15px;
+                                text-decoration: none;
+                                font-size: 20px;
+                        } .topnav a:hover { /* Change the color of links on hover */
+                                background-color: rgb(255, 255, 255);
+                                color: black;
+                        } .topnav a.active { /* Add a color to the active/current link */
+                                background-color: rgb(100, 0, 100);
+                                color: rgb(255, 255, 255);
+                        } .topnav a.githuba {
+                                padding: 0px 0px;
+                        } .topnav img.githubimg {
+                                width: 100px;
+                                height: 47px;
+                        }
+                </style>
 	</head>
 
-	<body>
-        <h1>Werk</h1>
+	<body> 
+		<div class="topnav">
+			<a class="active" href="index.html">Home</a>
+			<a href="opleiding.html">Opleiding</a>
+			<a href="werk.html">Werk</a>
+			<a class="githuba" href="https://github.com/ShexianKyoto/Statische-Front-End"><img src="images/github.png" class="githubimg" alt="Github"></a>
+		</div>
 	</body>
 </html>
