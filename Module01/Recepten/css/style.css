@@ -8,6 +8,14 @@ h1 {
     left: 500px;
 }
 
+p {
+    font-family: Roboto;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 500px;
+    padding-bottom: 15px;
+}
+
 .firstH1 {
     border-bottom: 1px solid rgb(150, 150, 150);
 }
@@ -22,12 +30,21 @@ h1 {
     text-align: left;
     padding-left: 550px;
     padding-bottom: 20px;
+    white-space: pre-line;
 }
 
-p {
-    font-family: Roboto;
-    font-size: 25px;
-    text-align: left;
-    padding-left: 500px;
-    padding-bottom: 15px;
+.gehaktbroodfoto {
+    padding: 10px;
+    position: absolute;
+    top: 1275px;
+    left: 505px;
+    width: 700px;
+    height: 700px;
+    padding-bottom: 20px;
+}
+
+.tipclass {
+    position: absolute;
+    top: 2000px;
+    border: 1px solid lightseagreen;
 }
