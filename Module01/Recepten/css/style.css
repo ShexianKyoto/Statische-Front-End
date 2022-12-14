@@ -10,10 +10,11 @@ h1 {
 
 p {
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
     padding-left: 500px;
     padding-bottom: 15px;
+    width: 900px;
 }
 
 .firstH1 {
@@ -29,22 +30,26 @@ p {
     font-size: 20px;
     text-align: left;
     padding-left: 550px;
-    padding-bottom: 20px;
     white-space: pre-line;
+    width: 900px;
 }
 
 .gehaktbroodfoto {
     padding: 10px;
     position: absolute;
-    top: 1275px;
+    top: 1300px;
     left: 505px;
     width: 700px;
     height: 700px;
-    padding-bottom: 20px;
 }
 
-.tipclass {
+.tipborder {
     position: absolute;
-    top: 2000px;
-    border: 1px solid lightseagreen;
+    top: 2020px;
+    left: 515px;
+    right: 400px;
+    border: 10px solid rgb(200, 255, 255);
+    background-color: rgb(200, 255, 255);
+    padding: 10px;
+    font-size: 20px;
 }
