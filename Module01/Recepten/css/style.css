@@ -1,58 +1,46 @@
 h1 {
-    font-size: 40px;
-    width: 900px;
-    position: relative;
-    left: 500px;
+    font-size: 32px;
 }
 
 div {
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    padding-bottom: 15px;
     font-size: 20px;
+    margin: auto;
+    width: 50%
 }
 
 .firstH1 {
     border-bottom: 1px solid rgb(150, 150, 150);
+    padding-bottom: 10px;
+    width: 900px
 }
 
-.firstP {
-    padding-left: 500px;
+div .firstP {
+    width: 900px;
+    font-size: 24px;
+    padding-bottom: 10px;
 }
 
 .secondH1 {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .firstUL {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: left;
-    padding-left: 550px;
     white-space: pre-line;
     width: 900px;
 }
 
 .gehaktbroodfoto {
-    padding: 10px;
-    position: absolute;
-    top: 1300px;
-    left: 505px;
-    width: 700px;
-    height: 700px;
+    padding-bottom: 10px;
 }
 
 .tipborder {
-    position: absolute;
-    top: 2020px;
-    left: 515px;
-    right: 400px;
-    border: 10px solid rgb(200, 255, 255);
-    background-color: rgb(200, 255, 255);
-    padding: 10px;
+    border: 25px solid #def6ed;
+    background-color: #def6ed;
     font-size: 20px;
+    width: 900px;
 }
